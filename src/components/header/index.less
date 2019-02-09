@@ -1,0 +1,41 @@
+header{
+    overflow: hidden;
+    background-color: #f2f2f2;
+    height:30px;
+    .header{
+        overflow: hidden;
+    }
+    ul{
+        float:left;
+        overflow: hidden;
+        margin:0;
+        li{
+            float:left;
+            line-height: 30px;
+            font-size: 12px;
+            margin:0 5px;
+            a{
+                color: #333;
+            }
+            &:hover a{
+                color:#c58630;
+            }
+            
+        }
+    }
+    .right{
+        float:right;
+    }
+    .left{
+        li{
+            &:nth-child(1) a{color: #c58630;}
+        }
+        .exit{
+            &:hover{
+                cursor: pointer;
+                color:#c58630;
+            }
+        }
+    }
+    
+}
